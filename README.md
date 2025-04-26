@@ -19,8 +19,8 @@ This project demonstrates automated browser testing using AI-powered agents. It 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/anishgoswami10/ai-test-automation.git
-cd ai-test-automation
+git clone https://github.com/anishgoswami10/myreop.git
+cd myreop
 ```
 
 2. Install dependencies:
