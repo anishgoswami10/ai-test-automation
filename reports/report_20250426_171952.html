@@ -1,0 +1,54 @@
+
+        <html>
+        <head>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                th, td {
+                    padding: 8px;
+                    text-align: left;
+                    border: 1px solid #ddd;
+                }
+                th {
+                    background-color: #f2f2f2;
+                }
+                .passed {
+                    color: green;
+                }
+                .failed {
+                    color: red;
+                }
+                .steps {
+                    white-space: pre-line;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Test Automation Report</h1>
+            <p>Generated: 2025-04-26 17:19:52</p>
+            <table>
+                <tr>
+                    <th>Test Name</th>
+                    <th>Status</th>
+                    <th>Steps</th>
+                    <th>Log</th>
+                </tr>
+        
+                <tr>
+                    <td>Valid Login and Checkout</td>
+                    <td class="failed">
+                        Failed
+                    </td>
+                    <td class="steps">Navigate to https://www.saucedemo.com/ ()<br>Expected: Login page should load<br>Enter text username field (standard_user)<br>Expected: Username entered<br>Enter text password field (secret_sauce)<br>Expected: Password entered<br>Click login button ()<br>Expected: Inventory page should load<br>Click add to cart button for first item ()<br>Expected: Item added to cart<br>Click shopping cart icon ()<br>Expected: Cart page should load<br>Click checkout button ()<br>Expected: Checkout page should load</td>
+                    <td>1 validation error for TestResult
+log
+  Input should be a valid string [type=string_type, input_value=<bound method AgentHistor...acted_element': None}])>, input_type=method]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type</td>
+                </tr>
+            </table></body></html>
